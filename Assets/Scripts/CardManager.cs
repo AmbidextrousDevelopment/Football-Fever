@@ -82,7 +82,7 @@ public class CardManager : MonoBehaviour
         battleCardsWindow.SetActive(false);
         gamePlayMenu.SetActive(false);
         MainMenu.SetActive(true);
-        MainWindowText.text = "Football Fever";
+        MainWindowText.text = "Main Menu";
 
         menuBackground.SetActive(true);
     }
@@ -173,7 +173,7 @@ public class CardManager : MonoBehaviour
         OpenCardsMenu();
         startTeamBattleButton.onClick.AddListener(StartTeamBattle);
 
-        MainWindowText.text = "Football Fever";
+        MainWindowText.text = "Main Menu";
     }
     public void CreateNewPlayerCard()
     {
